@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page | Project & Clients</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+   
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">MyCompany</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#clients">Clients</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#newsletter">Newsletter</a></li>
+                    <li><a href="admin.html" class="admin-link">Admin Panel</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <div class="container">
+            <h2>We Build Digital Solutions</h2>
+            <p>Creative projects, happy clients and innovative ideas</p>
+        </div>
+    </section>
+
+    
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Projects</h2>
+            <div id="projectList" class="card-grid">
+               
+            </div>
+        </div>
+    </section>
+
+
+    <section id="clients" class="section light-bg">
+        <div class="container">
+            <h2 class="section-title">Happy Clients</h2>
+            <div id="clientList" class="card-grid">
+               
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="fullName" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email Address" required>
+                <input type="tel" id="mobile" placeholder="Mobile Number" required>
+                <input type="text" id="city" placeholder="City" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+    <section id="newsletter" class="section dark-bg">
+        <div class="container newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Stay updated with our latest projects</p>
+
+            <form id="newsletterForm" class="newsletter-form">
+                <input type="email" id="newsletterEmail" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 MyCompany. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/landing.js"></script>
+
+</body>
+</html>

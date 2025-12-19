@@ -1,0 +1,139 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f4f7fb;
+    color: #333;
+}
+
+
+.admin-header {
+    background: #0a2540;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-header h1 {
+    font-size: 22px;
+}
+
+.back-btn {
+    color: #fff;
+    background: #00d4ff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.admin-container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+
+.admin-section {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+.admin-section h2 {
+    margin-bottom: 20px;
+    color: #0a2540;
+}
+
+
+.admin-form {
+    display: grid;
+    gap: 15px;
+}
+
+.admin-form input,
+.admin-form textarea {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.admin-form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.admin-form button {
+    width: fit-content;
+    padding: 10px 18px;
+    border: none;
+    background: #0a2540;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.admin-form button:hover {
+    background: #144272;
+}
+
+
+.preview-box {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.preview-box img {
+    width: 140px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-table thead {
+    background: #0a2540;
+    color: #fff;
+}
+
+.admin-table th,
+.admin-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    text-align: left;
+}
+
+.admin-table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+
+@media (max-width: 768px) {
+    .admin-section {
+        padding: 15px;
+    }
+
+    .admin-form button {
+        width: 100%;
+    }
+}
